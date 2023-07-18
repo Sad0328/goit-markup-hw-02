@@ -2,6 +2,12 @@
     --hero-color:#FFFFFF;
     --title-color:#2E2F42;
     --blue-color:#4D5AE5;
+    --gray-color: #e7e9fc;
+    --navyblue-color: #404bbf;
+    --dark-color: #434455;
+    --darkwhite-color: #F4F4FD;
+
+    
 
  }
 /* var(--hero-color);
@@ -24,7 +30,7 @@ body {
 }
 
 .header {
-    
+    border-bottom: 1px var(--gray-color);
 
 }
 
@@ -64,22 +70,22 @@ color: var(--title-color);
 
 }
 .header-menu-link .link:hover {
-        color: #404bbf;
+        color: var(--navyblue-color);
          cursor: pointer;
 }
 
 .header-menu-link .link:focus {
-    color: #404bbf;
+    color: var(--navyblue-color)f;
     cursor: pointer;
 }
 
 .link:hover {
-    color: #404bbf;
+    color: var(--navyblue-color);
     cursor: pointer;
 }
 
 .link:focus {
-    color: #404bbf;
+    color: var(--navyblue-color);
     cursor: pointer;
 }
 
@@ -101,7 +107,7 @@ color: var(--title-color);
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--dark-color);
 
 }
 
@@ -109,14 +115,14 @@ color: var(--title-color);
     background: var(--title-color);
 
 }
-.hero:focus {
+/* .hero:focus {
     background-color: #404BBF;
 
 }
 .hero:hover {
     background-color: #404BBF;
 
-}
+} */
 
 .hero-title {
     font-family: 'Roboto', sans-serif;
@@ -141,21 +147,21 @@ color: var(--title-color);
 
 }
 .hero-btn:hover {
-    background-color: #404BBF;
+    background-color: var(--navyblue-color);
     cursor: pointer;
 }
 .hero-btn:focus {
-    background-color: #404BBF;
+    background-color: var(--navyblue-color);
     cursor: pointer;
 }
-.header-menu-link:hover {
+/* .header-menu-link:hover {
         background-color: #404BBF;
         cursor: pointer;
     }
 .header-menu-link:focus {
     background-color: #404BBF;
     cursor: pointer;
-}
+} */
 
 
 .softskills {
@@ -185,7 +191,7 @@ color: var(--title-color);
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--dark-color);
 
 }
 
@@ -213,7 +219,7 @@ color: var(--title-color);
 
 
 .team {
-    background: #F4F4FD;
+    background: var(--darkwhite-color);
 
 }
 
@@ -227,12 +233,12 @@ color: var(--title-color);
     text-transform: capitalize;
 }
 
-.team-list {
+/* .team-list {
     background-color: #FFFFFF;
-}
+} */
 
 .team-item {
-    background-color: #FFFFFF;
+    background-color: var(--hero-color);
 }
 
 .team-subtitle {
@@ -249,7 +255,7 @@ color: var(--title-color);
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--dark-color);
 
 }
 
@@ -265,16 +271,16 @@ color: var(--title-color);
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4D5AE5;
+    color:var(--blue-color);
     text-transform: uppercase;
 }
 
 .footer-logo span {
-    color: #F4F4FD;
+    color: var(--darkwhite-color);
 }
 
 .footer-text {
-    color: #F4F4FD;
+    color: var(--darkwhite-color);
     letter-spacing: 0.02em;
     line-height: 1.50;
 
@@ -304,18 +310,18 @@ color: var(--title-color);
     
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
-    background-color: #F4F4FD;
+    color: var(--blue-color);
+    background-color: var(--darkwhite-color);
 }
 .filtr-button-text:hover {
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--navyblue-color);
+    color: var(--hero-color);
     cursor: pointer;
 }
 
 .filtr-button-text:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--navyblue-color);
+    color: var(--hero-color);
     cursor: pointer;
 }
 
@@ -335,7 +341,7 @@ color: var(--title-color);
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-     color: #2E2F42;
+     color: var(--title-color);
 }
 
 .project-item-text {
@@ -343,8 +349,8 @@ color: var(--title-color);
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
-    background: #FFFFFF;
+    color: var(--dark-color);
+    background: var(--hero-color);
 }
 
 
